@@ -1,0 +1,6 @@
+PROFILE
+PROFILE:VYYF_CTR:400:6
+ATIS2:"Rangon Control"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+END
