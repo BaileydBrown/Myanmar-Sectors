@@ -1,18 +1,18 @@
 PROFILE
 PROFILE:VYYF_CTR:400:6
-ATIS2:"Rangon Control"
+ATIS2:"Yangon Control"
 ATIS3:
 ATIS4:Report Callsign, Altitude and Position on initial contact.
 PROFILE:VYYF_2_CTR:400:6
-ATIS2:"Rangon Control"
+ATIS2:"Yangon Control"
 ATIS3:
 ATIS4:Report Callsign, Altitude and Position on initial contact.
 PROFILE:VYYF_3_CTR:400:6
-ATIS2:"Rangon Control"
+ATIS2:"Yangon Control"
 ATIS3:
 ATIS4:Report Callsign, Altitude and Position on initial contact.
 PROFILE:VYYF_4_CTR:400:6
-ATIS2:"Rangon Control"
+ATIS2:"Yangon Control"
 ATIS3:
 ATIS4:Report Callsign, Altitude and Position on initial contact.
 PROFILE:VYYY_APP:150:5
