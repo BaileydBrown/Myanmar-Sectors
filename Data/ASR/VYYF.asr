@@ -1,40 +1,33 @@
-DisplayTypeName:
+DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-Free Text:SCT2\A:freetext
-Free Text:SCT2\A:freetext
-Free Text:SCT2\A:freetext
-Free Text:SCT2\A:freetext
-Free Text:SCT2\A:freetext
-Free Text:SCT2\A:freetext
-Free Text:SCT2\A:freetext
-Free Text:SCT2\A:freetext
-Free Text:SCT2\A:freetext
-Free Text:SCT2\A1:freetext
-Free Text:SCT2\A1:freetext
-Free Text:SCT2\A1:freetext
-Free Text:SCT2\A2:freetext
-Free Text:SCT2\A2:freetext
-Free Text:SCT2\A3:freetext
-Free Text:SCT2\A3:freetext
-Free Text:SCT2\A3:freetext
-Free Text:SCT2\A4:freetext
-Free Text:SCT2\A4:freetext
-Free Text:SCT2\A5:freetext
-Free Text:SCT2\A5:freetext
-Free Text:SCT2\A6:freetext
-Free Text:SCT2\A6:freetext
-Free Text:SCT2\A9:freetext
-Free Text:SCT2\B1:freetext
-Free Text:SCT2\B2:freetext
-Free Text:SCT2\B3:freetext
-Free Text:SCT2\C:freetext
-Free Text:SCT2\D:freetext
-Free Text:SCT2\E:freetext
-Free Text:SCT2\H:freetext
-Free Text:SCT2\J:freetext
-Free Text:SCT2\K:freetext
-Free Text:SCT2\R1:freetext
+ARTCC boundary:Calcutta:
+ARTCC boundary:Chennai:
+ARTCC boundary:Dhaka:
+ARTCC boundary:Gulwahati:
+ARTCC boundary:Kunming:
+ARTCC boundary:Malaysia:
+ARTCC boundary:Rangoon Sector Split 1:
+ARTCC boundary:Rangoon Sector Split 2:
+ARTCC boundary:Rangoon Sector Split 3:
+ARTCC boundary:Rangoon Sector Split 4:
+ARTCC boundary:Thailand:
+ARTCC boundary:Vientiane:
+Free Text:Neighbour-FIR\VECC - Kolkata:freetext
+Free Text:Neighbour-FIR\VECX - Kolkata Oceanic:freetext
+Free Text:Neighbour-FIR\VEGF - Guwahti:freetext
+Free Text:Neighbour-FIR\VGFR - Dhaka:freetext
+Free Text:Neighbour-FIR\VLVT - Vientiane:freetext
+Free Text:Neighbour-FIR\VOMX - Channai:freetext
+Free Text:Neighbour-FIR\VTBB - Bangkok:freetext
+Free Text:Neighbour-FIR\VTBB - Bangkok:freetext
+Free Text:Neighbour-FIR\VTBB - Bangkok:freetext
+Free Text:Neighbour-FIR\WMFC - Lumpur:freetext
+Free Text:Neighbour-FIR\ZPKM - Kunming:freetext
+Free Text:Sector Frequencies\124.750:freetext
+Free Text:Sector Frequencies\126.750:freetext
+Free Text:Sector Frequencies\127.750:freetext
+Free Text:Sector Frequencies\128.750:freetext
 Free Text:VYYY Taxiways\A:freetext
 Free Text:VYYY Taxiways\A:freetext
 Free Text:VYYY Taxiways\A:freetext
@@ -88,4 +81,4 @@ SIMULATION_MODE:1
 DISABLEPANNING:0
 DISABLEZOOMING:0
 TAGFAMILY:Matias (built in)
-WINDOWAREA:10.634272:78.704088:28.858235:114.610272
+WINDOWAREA:12.469200:86.844594:21.799869:105.574119

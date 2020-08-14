@@ -3,4 +3,168 @@ PROFILE:VYYF_CTR:400:6
 ATIS2:"Rangon Control"
 ATIS3:
 ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYYF_2_CTR:400:6
+ATIS2:"Rangon Control"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYYF_3_CTR:400:6
+ATIS2:"Rangon Control"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYYF_4_CTR:400:6
+ATIS2:"Rangon Control"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYYY_APP:150:5
+ATIS2:"Mingaladon Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYNT_APP:150:5
+ATIS2:"Naypyitaw Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYMD_APP:150:5
+ATIS2:"Mandalay Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYBG_APP:150:5
+ATIS2:"Bagan Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYBM_APP:150:5
+ATIS2:"Banmaw Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYDW_APP:150:5
+ATIS2:"Dawei Approach"
+ATIS3:Let me show you Dawei
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYHH_APP:150:5
+ATIS2:"Heho Approach"
+ATIS3:Yeehaw welcome to Heho!
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYHL_APP:150:5
+ATIS2:"Hommlinn Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYKG_APP:150:5
+ATIS2:"Kengtung Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYKI_APP:150:5
+ATIS2:"Kanti Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYKL_APP:150:5
+ATIS2:"Kalay Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYKP_APP:150:5
+ATIS2:"Kyaukpyu Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYKT_APP:150:5
+ATIS2:"Kawthoung Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYLK_APP:150:5
+ATIS2:"Loikaw Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYLS_APP:150:5
+ATIS2:"Lashio Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYME_APP:150:5
+ATIS2:"Myeik Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYMK_APP:150:5
+ATIS2:"Myitkyina Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYMM_APP:150:5
+ATIS2:" Mawlamyine Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYMS_APP:150:5
+ATIS2:"Mong-hsat Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYPN_APP:150:5
+ATIS2:"Pathein Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYPT_APP:150:5
+ATIS2:"Putao Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYSW_APP:150:5
+ATIS2:"Sittwe Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYTD_APP:150:5
+ATIS2:"Thandwe Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYTL_APP:150:5
+ATIS2:"Tachileik Approach"
+ATIS3:
+ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYYY_TWR:50:4
+ATIS2:"Mingaladon Tower"
+ATIS3:
+ATIS4:Report Callsign, Aircraft Type, ATIS info and Position on initial contact.
+PROFILE:VYNT_TWR:50:4
+ATIS2:"Naypyitaw Tower"
+ATIS3:
+ATIS4:Report Callsign, Aircraft Type, ATIS info and Position on initial contact.
+PROFILE:VYMD_TWR:50:4
+ATIS2:"Mandalay Tower"
+ATIS3:
+ATIS4:Report Callsign, Aircraft Type, ATIS info and Position on initial contact.
+PROFILE:VYAN_TWR:50:4
+ATIS2:"Ann Tower"
+ATIS3:
+ATIS4:Report Callsign, Aircraft Type, ATIS info and Position on initial contact.
+PROFILE:VYAS_TWR:50:4
+ATIS2:"Anisakan Tower"
+ATIS3:
+ATIS4:Report Callsign, Aircraft Type, ATIS info and Position on initial contact.
+PROFILE:VYBP_TWR:50:4
+ATIS2:"Bokpyinn Tower"
+ATIS3:
+ATIS4:Report Callsign, Aircraft Type, ATIS info and Position on initial contact.
+PROFILE:VYKU_TWR:50:4
+ATIS2:"Kyauktu Tower"
+ATIS3:
+ATIS4:Report Callsign, Aircraft Type, ATIS info and Position on initial contact.
+PROFILE:VYMW_TWR:50:4
+ATIS2:"Magway Tower"
+ATIS3:
+ATIS4:Report Callsign, Aircraft Type, ATIS info and Position on initial contact.
+PROFILE:VYMY_TWR:50:4
+ATIS2:"Monywar Tower"
+ATIS3:
+ATIS4:Report Callsign, Aircraft Type, ATIS info and Position on initial contact.
+PROFILE:VYPA_TWR:50:4
+ATIS2:"Hpa-an Tower"
+ATIS3:
+ATIS4:Report Callsign, Aircraft Type, ATIS info and Position on initial contact.
+PROFILE:VYpu_TWR:50:4
+ATIS2:"Pakhokku Tower"
+ATIS3:
+ATIS4:Report Callsign, Aircraft Type, ATIS info and Position on initial contact.
+PROFILE:VYYY_GND:20:3
+ATIS2:"Mingaladon Ground"
+ATIS3:
+ATIS4:Report Callsign, Aircraft Type, ATIS info and Position on initial contact.
+PROFILE:VYNT_GND:20:3
+ATIS2:"Naypyitaw Ground"
+ATIS3:
+ATIS4:Report Callsign, Aircraft Type, ATIS info and Position on initial contact.
+PROFILE:VYMD_GND:20:3
+ATIS2:"Mandalay Ground"
+ATIS3:
+ATIS4:Report Callsign, Aircraft Type, ATIS info and Position on initial contact.
 END
