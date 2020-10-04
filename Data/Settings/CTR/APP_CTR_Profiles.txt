@@ -37,11 +37,11 @@ ATIS3:
 ATIS4:Report Callsign, Altitude and Position on initial contact.
 PROFILE:VYDW_APP:150:5
 ATIS2:"Dawei Approach"
-ATIS3:Let me show you Dawei
+ATIS3:
 ATIS4:Report Callsign, Altitude and Position on initial contact.
 PROFILE:VYHH_APP:150:5
 ATIS2:"Heho Approach"
-ATIS3:Yeehaw welcome to Heho!
+ATIS3:
 ATIS4:Report Callsign, Altitude and Position on initial contact.
 PROFILE:VYHL_APP:150:5
 ATIS2:"Hommlinn Approach"
@@ -151,7 +151,7 @@ PROFILE:VYPA_TWR:50:4
 ATIS2:"Hpa-an Tower"
 ATIS3:
 ATIS4:Report Callsign, Aircraft Type, ATIS info and Position on initial contact.
-PROFILE:VYpu_TWR:50:4
+PROFILE:VYPU_TWR:50:4
 ATIS2:"Pakhokku Tower"
 ATIS3:
 ATIS4:Report Callsign, Aircraft Type, ATIS info and Position on initial contact.
