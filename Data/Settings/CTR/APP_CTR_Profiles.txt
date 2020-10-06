@@ -1,19 +1,19 @@
 PROFILE
 PROFILE:VYYF_CTR:400:6
 ATIS2:"Yangon Control"
-ATIS3:
+ATIS3:Covering all airports north of VYNT
 ATIS4:Report Callsign, Altitude and Position on initial contact.
 PROFILE:VYYF_2_CTR:400:6
 ATIS2:"Yangon Control"
-ATIS3:
+ATIS3:Covering VYPN, VYTD, VYKP & VYSW
 ATIS4:Report Callsign, Altitude and Position on initial contact.
 PROFILE:VYYF_3_CTR:400:6
-ATIS2:"Yangon Control"
-ATIS3:
+ATIS2:"Yangon Control" Controlling 3000ft - FL260
+ATIS3:Covering VYPN, VYYY, VYPA, VYMM & VYNT
 ATIS4:Report Callsign, Altitude and Position on initial contact.
 PROFILE:VYYF_4_CTR:400:6
 ATIS2:"Yangon Control"
-ATIS3:
+ATIS3:Covering VYDW, VYME, VYBP & VYKT
 ATIS4:Report Callsign, Altitude and Position on initial contact.
 PROFILE:VYYY_APP:150:5
 ATIS2:"Mingaladon Approach"
