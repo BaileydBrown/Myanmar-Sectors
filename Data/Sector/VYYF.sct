@@ -1,10 +1,10 @@
-;EuroScope ATC Sector File (ESE)
+;EuroScope ATC Sector File (SCT)
 ;Copyright (C) 2020 by VATSEA
 ;All Rights Reserved
-;Rangoon sector version 2008
+;Rangoon sector version 2010
 
 [INFO]
-Rangoon2008
+Rangoon2010
 VYYF_CTR
 VYYY
 N020.05.54.758
@@ -21,6 +21,7 @@ E098.32.00.275
 #define RunwayConcrete  8553090
 #define RunwayBorder  4210752
 #define ProhibitedArea      126
+#define COLOR_APP       16711680
 
 [VOR]
 BGN 114.900 N021.10.10.329 E094.55.41.350
@@ -246,6 +247,8 @@ BOKOP N009.59.57.001 E095.22.58.000
 BOKPN N011.08.57.559 E098.44.10.370
 BOMAS N017.23.04.801 E098.05.49.099
 BORBU N016.53.45.999 E092.00.00.000
+YYRWY03 N016.53.52.580 E096.07.36.800
+YYRWY21 N016.55.25.450 E096.08.40.042
 BOSPO N016.50.04.390 E097.10.22.461
 BUXEL N011.43.41.959 E099.45.40.348
 BYALA N020.15.23.601 E092.42.48.599
@@ -2011,8 +2014,618 @@ Chennai N015.00.00.000 E075.59.23.999 N018.00.00.000 E075.59.23.999
 [ARTCC LOW]
 
 [SID]
+VYHH SID 18 REMIN1A                      HH904 HH904 HH905 HH905
+                                         HH904 HH904 HH905 HH905
+                                         HH905 HH905 HH910 HH910
+                                         HH910 HH910 HH911 HH911
+                                         HH911 HH911 HH912 HH912
+                                         HH912 HH912 REMIN REMIN
+
+VYHH SID 18 SUROT1A                      HH904 HH904 HH906 HH906
+                                         HH904 HH904 HH906 HH906
+                                         HH906 HH906 HH907 HH907
+                                         HH907 HH907 HH908 HH908
+                                         HH908 HH908 HH909 HH909
+                                         HH909 HH909 SUROT SUROT
+
+VYMD SID 17 DOGIP1S                      MDS02 MDS02 ZIDAW ZIDAW
+                                         MDS02 MDS02 ZIDAW ZIDAW
+                                         ZIDAW ZIDAW DOGIP DOGIP
+
+VYMD SID 17 IBONA1S                      MDS04 MDS04 MDS10 MDS10
+                                         MDS04 MDS04 MDS10 MDS10
+                                         MDS10 MDS10 MDN07 MDN07
+                                         MDN07 MDN07 MDN02 MDN02
+                                         MDN02 MDN02 MDN13 MDN13
+                                         MDN13 MDN13 IBONA IBONA
+
+VYMD SID 17 THAZI1S                      MDS02 MDS02 MDS11 MDS11
+                                         MDS02 MDS02 MDS11 MDS11
+                                         MDS11 MDS11 THAZI THAZI
+
+VYMD SID 35 DOGIP1N                      MDN11 MDN11 MDS13 MDS13
+                                         MDN11 MDN11 MDS13 MDS13
+                                         MDS13 MDS13 SITHU SITHU
+                                         SITHU SITHU DOGIP DOGIP
+
+VYMD SID 35 IBONA1N                      MDN02 MDN02 MDN13 MDN13
+                                         MDN02 MDN02 MDN13 MDN13
+                                         MDN13 MDN13 IBONA IBONA
+
+VYMD SID 35 THAZI1N                      MDN11 MDN11 MDS13 MDS13
+                                         MDN11 MDN11 MDS13 MDS13
+                                         MDS13 MDS13 MDS14 MDS14
+                                         MDS14 MDS14 THAZI THAZI
+
+VYSW SID 11 ENKEL1C                      SW904 SW904 SW917 SW917
+                                         SW904 SW904 SW917 SW917
+                                         SW917 SW917 ENKEL ENKEL
+
+VYSW SID 11 GOKET1C                      SW904 SW904 SW915 SW915
+                                         SW904 SW904 SW915 SW915
+                                         SW915 SW915 SW916 SW916
+                                         SW916 SW916 GOKET GOKET
+
+VYSW SID 11 NOGIN1C                      SW904 SW904 SW915 SW915
+                                         SW904 SW904 SW915 SW915
+                                         SW915 SW915 NOGIN NOGIN
+
+VYSW SID 11 POMEN1C                      SW904 SW904 SW915 SW915
+                                         SW904 SW904 SW915 SW915
+                                         SW915 SW915 POMEN POMEN
+
+VYSW SID 29 ENKEL1A                      SW906 SW906 SW911 SW911
+                                         SW906 SW906 SW911 SW911
+                                         SW911 SW911 SW912 SW912
+                                         SW912 SW912 ENKEL ENKEL
+
+VYSW SID 29 GOKET1A                      SW906 SW906 SW907 SW907
+                                         SW906 SW906 SW907 SW907
+                                         SW907 SW907 SW908 SW908
+                                         SW908 SW908 SW909 SW909
+                                         SW909 SW909 GOKET GOKET
+
+VYSW SID 29 NOGIN1A                      SW906 SW906 SW911 SW911
+                                         SW906 SW906 SW911 SW911
+                                         SW911 SW911 SW912 SW912
+                                         SW912 SW912 SW913 SW913
+                                         SW913 SW913 NOGIN NOGIN
+
+VYSW SID 29 POMEN1A                      SW906 SW906 SW907 SW907
+                                         SW906 SW906 SW907 SW907
+                                         SW907 SW907 SW908 SW908
+                                         SW908 SW908 SW909 SW909
+                                         SW909 SW909 SW910 SW910
+                                         SW910 SW910 POMEN POMEN
+
+VYYY SID 03 BAGOO1A                      YYRWY21 YYRWY21 HGU HGU
+                                         HGU HGU BAGOO BAGOO
+
+VYYY SID 03 MAPKO1A                      YYRWY21 YYRWY21 N016.57.56.698 E096.10.22.899
+										N016.57.56.698 E096.10.22.899 N016.58.08.411 E096.10.33.735
+                          N016.58.08.411 E096.10.33.735 N016.58.17.043 E096.10.47.369
+                          N016.58.17.043 E096.10.47.369 N016.58.22.005 E096.11.02.875
+                          N016.58.22.005 E096.11.02.875 N016.58.22.960 E096.11.19.195
+                          N016.58.22.960 E096.11.19.195 N016.58.22.523 E096.11.23.543
+                          N016.58.22.523 E096.11.23.543 N016.52.50.000 E096.49.40.698
+                                         YY921 YY921 YY923 YY923
+                                         YY923 YY923 YY924 YY924
+                                         YY924 YY924 MAPKO MAPKO
+
+VYYY SID 03 REBOS1A                      YYRWY21 YYRWY21 N016.57.56.698 E096.10.22.899
+								N016.57.56.698 E096.10.22.899 N016.58.08.411 E096.10.33.735
+                          N016.58.08.411 E096.10.33.735 N016.58.17.043 E096.10.47.369
+                          N016.58.17.043 E096.10.47.369 N016.58.22.005 E096.11.02.875
+                          N016.58.22.005 E096.11.02.875 N016.58.22.960 E096.11.19.195
+                          N016.58.22.960 E096.11.19.195 N016.58.22.523 E096.11.23.543
+                          N016.58.22.523 E096.11.23.543 N016.52.50.000 E096.49.40.698
+                                         YY921 YY921 YY923 YY923
+                                         YY923 YY923 REBOS REBOS
+
+VYYY SID 03 RISNA1A                      YYRWY21 YYRWY21 N016.57.56.698 E096.10.22.899
+							N016.57.56.698 E096.10.22.899 N016.58.08.411 E096.10.33.735
+                          N016.58.08.411 E096.10.33.735 N016.58.17.043 E096.10.47.369
+                          N016.58.17.043 E096.10.47.369 N016.58.22.005 E096.11.02.875
+                          N016.58.22.005 E096.11.02.875 N016.58.22.960 E096.11.19.195
+                          N016.58.22.960 E096.11.19.195 N016.58.22.523 E096.11.23.543
+                          N016.58.22.523 E096.11.23.543 N016.52.50.000 E096.49.40.698
+                                         YY921 YY921 RISNA RISNA
+
+VYYY SID 21 BOSPO1A                      YYRWY03 YYRWY03 N016.43.02.780 E095.56.45.897
+										N016.43.02.780 E095.56.45.897 N016.42.53.259 E095.56.32.943
+										  N016.42.53.259 E095.56.32.943 N016.42.47.274 E095.56.17.856 
+										  N016.42.47.274 E095.56.17.856 N016.42.45.233 E095.56.01.665
+										  N016.42.45.233 E095.56.01.665 N016.42.47.274 E095.55.45.474
+										  N016.42.47.274 E095.55.45.474 N016.42.53.259 E095.55.30.386
+										  N016.42.53.259 E095.55.30.386 N016.43.02.779 E095.55.17.430
+										  N016.43.02.779 E095.55.17.430 N016.43.15.187 E095.55.07.489
+										  N016.43.15.187 E095.55.07.489 N016.43.29.636 E095.55.01.240
+										  N016.43.29.636 E095.55.01.240 N016.43.45.142 E095.54.59.108
+										  N016.43.45.142 E095.54.59.108 N016.43.58.192 E095.55.00.610
+										  N016.43.58.192 E095.55.00.610 N016.54.42.197 E095.57.30.699
+                                         YY910 YY910 GONAS GONAS
+                                         GONAS GONAS BOSPO BOSPO
+
+VYYY SID 21 BOSPO1B                      YYRWY03 YYRWY03 N016.46.39.420 E096.00.22.728
+										N016.46.39.420 E096.00.22.728 N016.46.29.899 E096.00.09.770
+										  N016.46.29.899 E096.00.09.770 N016.46.23.914 E095.59.54.678
+										  N016.46.23.914 E095.59.54.678 N016.46.21.872 E095.59.38.482
+										  N016.46.21.872 E095.59.38.482 N016.46.23.914 E095.59.22.286
+										  N016.46.23.914 E095.59.22.286 N016.46.29.899 E095.59.07.193
+										  N016.46.29.899 E095.59.07.193 N016.46.39.419 E095.58.54.233
+										  N016.46.39.419 E095.58.54.233 N016.46.51.827 E095.58.44.289
+										  N016.46.51.827 E095.58.44.289 N016.47.06.276 E095.58.38.037
+										  N016.47.06.276 E095.58.38.037 N016.47.13.451 E095.58.36.513
+										  N016.47.13.451 E095.58.36.513 N016.54.42.197 E095.57.30.699
+                                         YY910 YY910 GONAS GONAS
+                                         GONAS GONAS BOSPO BOSPO
+
+VYYY SID 21 DOLBI1A                      YYRWY03 YYRWY03 N016.43.02.780 E095.56.45.897
+										N016.43.02.780 E095.56.45.897 N016.42.53.259 E095.56.32.943
+                          N016.42.53.259 E095.56.32.943 N016.42.47.274 E095.56.17.856
+                          N016.42.47.274 E095.56.17.856 N016.42.45.233 E095.56.01.665
+                          N016.42.45.233 E095.56.01.665 N016.42.47.274 E095.55.45.474
+                          N016.42.47.274 E095.55.45.474 N016.42.53.259 E095.55.30.386
+                          N016.42.53.259 E095.55.30.386 N016.43.02.779 E095.55.17.430
+                          N016.43.02.779 E095.55.17.430 N016.43.15.187 E095.55.07.489
+                          N016.43.15.187 E095.55.07.489 N016.43.29.636 E095.55.01.240
+                          N016.43.29.636 E095.55.01.240 N016.43.45.142 E095.54.59.108
+                          N016.43.45.142 E095.54.59.108 N016.43.58.192 E095.55.00.610
+                          N016.43.58.192 E095.55.00.610 N016.54.42.197 E095.57.30.699
+                                         YY910 YY910 GONAS GONAS
+                                         GONAS GONAS YY912 YY912
+                                         YY912 YY912 DOLBI DOLBI
+
+VYYY SID 21 DOLBI1B                      YYRWY03 YYRWY03 N016.46.39.420 E096.00.22.728
+N016.46.39.420 E096.00.22.728 N016.46.29.899 E096.00.09.770
+										  N016.46.29.899 E096.00.09.770 N016.46.23.914 E095.59.54.678
+										  N016.46.23.914 E095.59.54.678 N016.46.21.872 E095.59.38.482
+										  N016.46.21.872 E095.59.38.482 N016.46.23.914 E095.59.22.286
+										  N016.46.23.914 E095.59.22.286 N016.46.29.899 E095.59.07.193
+										  N016.46.29.899 E095.59.07.193 N016.46.39.419 E095.58.54.233
+										  N016.46.39.419 E095.58.54.233 N016.46.51.827 E095.58.44.289
+										  N016.46.51.827 E095.58.44.289 N016.47.06.276 E095.58.38.037
+										  N016.47.06.276 E095.58.38.037 N016.47.13.451 E095.58.36.513
+										  N016.47.13.451 E095.58.36.513 N016.54.42.197 E095.57.30.699
+                                         YY910 YY910 GONAS GONAS
+                                         GONAS GONAS YY912 YY912
+                                         YY912 YY912 DOLBI DOLBI
+
+VYYY SID 21 MARDO1A                      YYRWY03 YYRWY03 YY905 YY905
+											YY905 YY905 YY907 YY907
+                                         YY905 YY905 YY907 YY907
+                                         YY907 YY907 MARDO MARDO
+
+VYYY SID 21 MULGO1A                      YYRWY03 YYRWY03 YY906 YY906
+										YY906 YY906 YY913 YY913
+                                         YY906 YY906 YY913 YY913
+                                         YY913 YY913 YY914 YY914
+                                         YY914 YY914 MULGO MULGO
+
+VYYY SID 21 MULGO1B                      YYRWY03 YYRWY03 YY906 YY906
+										YY906 YY906 YY915 YY915
+                                         YY906 YY906 YY915 YY915
+                                         YY915 YY915 MULGO MULGO
+
+VYYY SID 21 PARLA1A                      YYRWY03 YYRWY03 N016.43.02.780 E095.56.45.897
+						N016.43.02.780 E095.56.45.897 N016.42.53.259 E095.56.32.943
+                          N016.42.53.259 E095.56.32.943 N016.42.47.274 E095.56.17.856
+                          N016.42.47.274 E095.56.17.856 N016.42.45.233 E095.56.01.665
+                          N016.42.45.233 E095.56.01.665 N016.42.47.274 E095.55.45.474
+                          N016.42.47.274 E095.55.45.474 N016.42.53.259 E095.55.30.386
+                          N016.42.53.259 E095.55.30.386 N016.43.02.779 E095.55.17.430
+                          N016.43.02.779 E095.55.17.430 N016.43.15.187 E095.55.07.489
+                          N016.43.15.187 E095.55.07.489 N016.43.29.636 E095.55.01.240
+                          N016.43.29.636 E095.55.01.240 N016.43.45.142 E095.54.59.108
+                          N016.43.45.142 E095.54.59.108 N016.43.58.192 E095.55.00.610
+                          N016.43.58.192 E095.55.00.610 N016.54.42.197 E095.57.30.699
+                                         YY910 YY910 GONAS GONAS
+                                         GONAS GONAS YY911 YY911
+                                         YY911 YY911 PARLA PARLA
+
+VYYY SID 21 PARLA1B                      YYRWY03 YYRWY03 N016.43.02.780 E095.56.45.897
+							N016.43.02.780 E095.56.45.897 N016.42.53.259 E095.56.32.943
+                          N016.42.53.259 E095.56.32.943 N016.42.47.274 E095.56.17.856
+                          N016.42.47.274 E095.56.17.856 N016.42.45.233 E095.56.01.665
+                          N016.42.45.233 E095.56.01.665 N016.42.47.274 E095.55.45.474
+                          N016.42.47.274 E095.55.45.474 N016.42.53.259 E095.55.30.386
+                          N016.42.53.259 E095.55.30.386 N016.43.02.779 E095.55.17.430
+                          N016.43.02.779 E095.55.17.430 N016.43.15.187 E095.55.07.489
+                          N016.43.15.187 E095.55.07.489 N016.43.29.636 E095.55.01.240
+                          N016.43.29.636 E095.55.01.240 N016.43.45.142 E095.54.59.108
+                          N016.43.45.142 E095.54.59.108 N016.43.58.192 E095.55.00.610
+                          N016.43.58.192 E095.55.00.610 N016.54.42.197 E095.57.30.699
+                                         YY910 YY910 GONAS GONAS
+                                         GONAS GONAS YY911 YY911
+                                         YY911 YY911 PARLA PARLA
+
+VYYY SID 21 POMEP1A                      YYRWY03 YYRWY03 YY905 YY905
+										YY905 YY905 POMEP POMEP
+                                         YY905 YY905 POMEP POMEP
+
+VYYY SID 21 PTN1A                      YYRWY03 YYRWY03 YY906 YY906
+										YY906 YY906 PTN PTN
+                                         YY906 YY906 PTN PTN
+
+VYYY SID 21 VISAM1A                      YYRWY03 YYRWY03 N016.43.02.780 E095.56.45.897 
+										N016.43.02.780 E095.56.45.897 N016.42.53.259 E095.56.32.943
+										  N016.42.53.259 E095.56.32.943 N016.42.47.274 E095.56.17.856 
+										  N016.42.47.274 E095.56.17.856 N016.42.45.233 E095.56.01.665
+										  N016.42.45.233 E095.56.01.665 N016.42.47.274 E095.55.45.474
+										  N016.42.47.274 E095.55.45.474 N016.42.53.259 E095.55.30.386
+										  N016.42.53.259 E095.55.30.386 N016.43.02.779 E095.55.17.430
+										  N016.43.02.779 E095.55.17.430 N016.43.15.187 E095.55.07.489
+										  N016.43.15.187 E095.55.07.489 N016.43.29.636 E095.55.01.240
+										  N016.43.29.636 E095.55.01.240 N016.43.45.142 E095.54.59.108
+										  N016.43.45.142 E095.54.59.108 N016.43.58.192 E095.55.00.610
+										  N016.43.58.192 E095.55.00.610 N016.54.42.197 E095.57.30.699
+                                         YY910 YY910 GONAS GONAS
+                                         GONAS GONAS VISAM VISAM
+
+VYYY SID 21 VISAM1B                      YYRWY03 YYRWY03 YY905 YY905 
+										YY905 YY905 YY907 YY907
+                                         YY905 YY905 YY907 YY907
+                                         YY907 YY907 YY908 YY908
+                                         YY908 YY908 YY909 YY909
+                                         YY909 YY909 VISAM VISAM
+
+VYYY SID 21 VISAM1C                      YYRWY03 YYRWY03 N016.43.02.780 E095.56.45.897
+							N016.43.02.780 E095.56.45.897 N016.42.53.259 E095.56.32.943
+                          N016.42.53.259 E095.56.32.943 N016.42.47.274 E095.56.17.856
+                          N016.42.47.274 E095.56.17.856 N016.42.45.233 E095.56.01.665
+                          N016.42.45.233 E095.56.01.665 N016.42.47.274 E095.55.45.474
+                          N016.42.47.274 E095.55.45.474 N016.42.53.259 E095.55.30.386
+                          N016.42.53.259 E095.55.30.386 N016.43.02.779 E095.55.17.430
+                          N016.43.02.779 E095.55.17.430 N016.43.15.187 E095.55.07.489
+                          N016.43.15.187 E095.55.07.489 N016.43.29.636 E095.55.01.240
+                          N016.43.29.636 E095.55.01.240 N016.43.45.142 E095.54.59.108
+                          N016.43.45.142 E095.54.59.108 N016.43.58.192 E095.55.00.610
+                          N016.43.58.192 E095.55.00.610 N016.54.42.197 E095.57.30.699
+                                         YY910 YY910 GONAS GONAS
+                                         GONAS GONAS VISAM VISAM
+										
 
 [STAR]
+VYHH STAR 36 REMIN1B                      REMIN REMIN DUMER DUMER
+                                         REMIN REMIN DUMER DUMER
+
+VYHH STAR 36 SUROT1B                      SUROT SUROT GUSUM GUSUM
+                                         SUROT SUROT GUSUM GUSUM
+                                         GUSUM GUSUM KALSI KALSI
+
+VYNT STAR 16 ILS?Z                      NT901 NT901 MUDRA MUDRA COLOR_APP
+                                         NT901 NT901 MUDRA MUDRA COLOR_APP
+
+VYNT STAR 16 ILS                      INP11 INP11 INPT6 INPT6 COLOR_APP
+                                         INP11 INP11 INPT6 INPT6 COLOR_APP
+
+VYNT STAR 16 MINGOxILS?Z                      MINGO MINGO NT901 NT901 COLOR_APP
+                                         MINGO MINGO NT901 NT901 COLOR_APP
+                                         NT901 NT901 MUDRA MUDRA COLOR_APP
+
+VYNT STAR 16 THIRIxILS?Z                      THIRI THIRI NT901 NT901 COLOR_APP
+                                         THIRI THIRI NT901 NT901 COLOR_APP
+                                         NT901 NT901 MUDRA MUDRA COLOR_APP
+
+VYNT STAR 16 NPTxILS                      NPT NPT INP11 INP11 COLOR_APP
+                                         NPT NPT INP11 INP11 COLOR_APP
+                                         INP11 INP11 INPT6 INPT6 COLOR_APP
+
+VYSW STAR 11 ENKEL1D                      ENKEL ENKEL SW920 SW920
+                                         ENKEL ENKEL SW920 SW920
+                                         SW920 SW920 SIDRA SIDRA
+
+VYSW STAR 11 GOKET1D                      GOKET GOKET SW919 SW919
+                                         GOKET GOKET SW919 SW919
+                                         SW919 SW919 SW918 SW918
+                                         SW918 SW918 BYALA BYALA
+
+VYSW STAR 11 NOGIN1D                      NOGIN NOGIN SW917 SW917
+                                         NOGIN NOGIN SW917 SW917
+                                         SW917 SW917 SIDRA SIDRA
+
+VYSW STAR 11 POMEN1D                      POMEN POMEN SW916 SW916
+                                         POMEN POMEN SW916 SW916
+                                         SW916 SW916 SW919 SW919
+                                         SW919 SW919 SW918 SW918
+                                         SW918 SW918 BYALA BYALA
+
+VYSW STAR 29 ENKEL1B                      ENKEL ENKEL SW913 SW913
+                                         ENKEL ENKEL SW913 SW913
+                                         SW913 SW913 SW914 SW914
+                                         SW914 SW914 AKYAB AKYAB
+
+VYSW STAR 29 GOKET1B                      GOKET GOKET SW910 SW910
+                                         GOKET GOKET SW910 SW910
+                                         SW910 SW910 AKYAB AKYAB
+
+VYSW STAR 29 NOGIN1B                      NOGIN NOGIN SW914 SW914
+                                         NOGIN NOGIN SW914 SW914
+                                         SW914 SW914 AKYAB AKYAB
+
+VYSW STAR 29 POMEN1B                      POMEN POMEN AKYAB AKYAB
+                                         POMEN POMEN AKYAB AKYAB
+
+VYYY STAR 03 BAGOO1B                      BAGOO BAGOO GONAS GONAS
+                                         BAGOO BAGOO GONAS GONAS
+                                         GONAS GONAS EMREL EMREL
+                                         EMREL EMREL YY902 YY902 COLOR_APP
+                                         YY902 YY902 LUNGO LUNGO COLOR_APP
+
+VYYY STAR 03 RISNA1B                      RISNA RISNA YY923 YY923
+                                         RISNA RISNA YY923 YY923
+                                         YY923 YY923 YY922 YY922
+                                         YY922 YY922 PALPO PALPO
+                                         PALPO PALPO YY902 YY902 COLOR_APP
+                                         YY902 YY902 LUNGO LUNGO COLOR_APP
+
+VYYY STAR 03 REBOS1B                      REBOS REBOS YY924 YY924
+                                         REBOS REBOS YY924 YY924
+                                         YY924 YY924 YY925 YY925
+                                         YY925 YY925 YY922 YY922
+                                         YY922 YY922 PALPO PALPO
+                                         PALPO PALPO YY902 YY902 COLOR_APP
+                                         YY902 YY902 LUNGO LUNGO COLOR_APP
+
+VYYY STAR 03 MAPKO1B                      MAPKO MAPKO YY925 YY925
+                                         MAPKO MAPKO YY925 YY925
+                                         YY925 YY925 YY922 YY922
+                                         YY922 YY922 PALPO PALPO
+                                         PALPO PALPO YY902 YY902 COLOR_APP
+                                         YY902 YY902 LUNGO LUNGO COLOR_APP
+
+VYYY STAR 21 RELAP1A                      RELAP RELAP BAGOO BAGOO
+                                         RELAP RELAP BAGOO BAGOO
+                                         BAGOO BAGOO PAKSU PAKSU
+                                         PAKSU PAKSU HGU HGU COLOR_APP
+                                         HGU HGU BAVEL BAVEL COLOR_APP
+                                         BAVEL BAVEL SULAP SULAP COLOR_APP
+
+VYYY STAR 21 ENSIT1A                      ENSIT ENSIT YY917 YY917
+                                         ENSIT ENSIT YY917 YY917
+                                         YY917 YY917 BAGOO BAGOO
+                                         BAGOO BAGOO PAKSU PAKSU
+                                         PAKSU PAKSU HGU HGU COLOR_APP
+                                         HGU HGU BAVEL BAVEL COLOR_APP
+                                         BAVEL BAVEL SULAP SULAP COLOR_APP
+
+VYYY STAR 21 OROMO1A                      OROMO OROMO BAGOO BAGOO
+                                         OROMO OROMO BAGOO BAGOO
+                                         BAGOO BAGOO PAKSU PAKSU
+                                         PAKSU PAKSU HGU HGU COLOR_APP
+                                         HGU HGU BAVEL BAVEL COLOR_APP
+                                         BAVEL BAVEL SULAP SULAP COLOR_APP
+
+VYYY STAR 21 OKIKO1A                      OKIKO OKIKO YY918 YY918
+                                         OKIKO OKIKO YY918 YY918
+                                         YY918 YY918 BAGOO BAGOO
+                                         BAGOO BAGOO PAKSU PAKSU
+                                         PAKSU PAKSU HGU HGU COLOR_APP
+                                         HGU HGU BAVEL BAVEL COLOR_APP
+                                         BAVEL BAVEL SULAP SULAP COLOR_APP
+
+VYYY STAR 21 ENSIT1B                      ENSIT ENSIT YY916 YY916
+                                         ENSIT ENSIT YY916 YY916
+                                         YY916 YY916 DANSO DANSO
+                                         DANSO DANSO HGU HGU COLOR_APP
+                                         HGU HGU BAVEL BAVEL COLOR_APP
+                                         BAVEL BAVEL SULAP SULAP COLOR_APP
+
+VYYY STAR 21 OKIKO1B                      OKIKO OKIKO GONAS GONAS
+                                         OKIKO OKIKO GONAS GONAS
+                                         GONAS GONAS HGU HGU COLOR_APP
+                                         HGU HGU BAVEL BAVEL COLOR_APP
+                                         BAVEL BAVEL SULAP SULAP COLOR_APP
+
+VYYY STAR KT ENSIT						KT KT ENSIT ENSIT
+
+VYYY STAR ME ENSIT						ME ME ENSIT ENSIT
+
+VYYY STAR DWI ENSIT						DWI DWI POXEM POXEM
+										POXEM POXEM ENSIT ENSIT
+										
+VYYY STAR BETNO ENSIT					BETNO BETNO ENSIT ENSIT
+
+VYYY STAR LUDVI ENSIT					LUDVI LUDIV ENSIT ENSIT
+
+VYYY STAR MM ENSIT						MM MM ENSIT ENSIT
+
+VYYY STAR MAKAS RELAP					MAKAS MAKAS RELAP RELAP
+
+VYYY STAR BOMAS RELAP					BOMAS BOMAS RELAP RELAP
+
+VYYY STAR POXEM MAPKO					POXEM POXEM MAPKO MAPKO
+
+VYYY STAR BETNO REBOS					BETNO BETNO REBOS REBOS
+
+VYYY STAR LUDVI RISNA					LUDVI LUDVI RISNA RISNA
+
+VYYY STAR SAGOD OKIKO					SAGOD SAGOD OKIKO OKIKO
+
+VYYY STAR TDE OKIKO						TDE TDE OKIKO OKIKO
+
+VYYY STAR KP OKIKO						KP KP SUMSU SUMSU
+										SUMSU SUMSU OKIKO OKIKO
+
+VYYY STAR STW OKIKO						STW STW OKIKO OKIKO
+
+VYYY STAR DORLI OKIKO					DORLI DORLI OKIKO OKIKO
+
+VYYY STAR KL OKIKO						KL KL OKIKO OKIKO
+
+VYYY STAR BGN OKIKO						BGN BGN OKIKO OKIKO
+
+VYYY STAR NPT OROMO						NPT NPT OROMO OROMO
+
+VYYY STAR MOXIS OROMO					MOXIS MOXIS OROMO OROMO
+
+VYYY STAR HHO OROMO						HHO HHO OROMO OROMO
+
+VYYY STAR LSO OROMO						LSO LSO OROMO OROMO
+
+VYYY STAR LK OROMO						LK LK OROMO OROMO
+
+
+VYMD STAR 17 THADU1E                      THADU THADU MDN01 MDN01
+                                         THADU THADU MDN01 MDN01
+                                         MDN01 MDN01 TADAU TADAU
+
+VYMD STAR 17 DOGIP1E                      DOGIP DOGIP SITHU SITHU
+                                         DOGIP DOGIP SITHU SITHU
+                                         SITHU SITHU MALAY MALAY
+                                         MALAY MALAY MDN01 MDN01
+                                         MDN01 MDN01 TADAU TADAU
+
+VYMD STAR 17 HEHOO1E                      HEHOO HEHOO SITHU SITHU
+                                         HEHOO HEHOO SITHU SITHU
+                                         SITHU SITHU MALAY MALAY
+                                         MALAY MALAY MDN01 MDN01
+                                         MDN01 MDN01 TADAU TADAU
+
+VYMD STAR 35 IBONA1W                      IBONA IBONA THADU THADU
+                                         IBONA IBONA THADU THADU
+                                         THADU THADU MDS03 MDS03
+                                         MDS03 MDS03 MDS05 MDS05
+                                         MDS05 MDS05 MDS04 MDS04
+
+VYMD STAR 35 THAZI1W                      THAZI THAZI MDS11 MDS11
+                                         THAZI THAZI MDS11 MDS11
+                                         MDS11 MDS11 MDS02 MDS02
+                                         MDS02 MDS02 MDS05 MDS05
+                                         MDS05 MDS05 MDS04 MDS04
+
+VYMD STAR 35 DOGIP1W                      DOGIP DOGIP ZIDAW ZIDAW
+                                         DOGIP DOGIP ZIDAW ZIDAW
+                                         ZIDAW ZIDAW MDS02 MDS02
+                                         MDS02 MDS02 MDS05 MDS05
+                                         MDS05 MDS05 MDS04 MDS04
+
+BAGOO Holding             N017.19.06.600 E096.31.11.499 N017.18.52.519 E096.30.42.554 
+                          N017.18.52.519 E096.30.42.554 N017.18.54.143 E096.30.10.113 
+                          N017.18.54.143 E096.30.10.113 N017.19.11.034 E096.29.42.867 
+                          N017.19.11.034 E096.29.42.867 N017.19.38.665 E096.29.28.119 
+                          N017.19.38.665 E096.29.28.119 N017.20.09.635 E096.29.29.819 
+                          N017.20.09.635 E096.29.29.819 N017.20.35.644 E096.29.47.513 
+                          N017.20.35.644 E096.29.47.513 N017.22.35.906 E096.32.07.446 
+                          N017.22.35.906 E096.32.07.446 N017.22.49.985 E096.32.36.400 
+                          N017.22.49.985 E096.32.36.400 N017.22.48.362 E096.33.08.848 
+                          N017.22.48.362 E096.33.08.848 N017.22.31.471 E096.33.36.098 
+                          N017.22.31.471 E096.33.36.098 N017.22.03.839 E096.33.50.850 
+                          N017.22.03.839 E096.33.50.850 N017.21.32.870 E096.33.49.149 
+                          N017.21.32.870 E096.33.49.149 N017.21.06.861 E096.33.31.453 
+                          N017.21.06.861 E096.33.31.453 N017.19.06.600 E096.31.11.499 
+EMREL Holding             EMREL EMREL N016.48.25.103 E095.57.44.529 
+                          N016.48.25.103 E095.57.44.529 N016.48.31.020 E095.58.16.332 
+                          N016.48.31.020 E095.58.16.332 N016.48.51.366 E095.58.40.783 
+                          N016.48.51.366 E095.58.40.783 N016.49.20.687 E095.58.51.330 
+                          N016.49.20.687 E095.58.51.330 N016.49.51.129 E095.58.45.149 
+                          N016.49.51.129 E095.58.45.149 N016.50.14.534 E095.58.23.894 
+                          N016.50.14.534 E095.58.23.894 N016.51.21.534 E095.56.40.110 
+                          N016.51.21.534 E095.56.40.110 N016.51.31.629 E095.56.09.471 
+                          N016.51.31.629 E095.56.09.471 N016.51.25.712 E095.55.37.665 
+                          N016.51.25.712 E095.55.37.665 N016.51.05.366 E095.55.13.212 
+                          N016.51.05.366 E095.55.13.212 N016.50.36.044 E095.55.02.663 
+                          N016.50.36.044 E095.55.02.663 N016.50.05.603 E095.55.08.845 
+                          N016.50.05.603 E095.55.08.845 N016.49.42.198 E095.55.30.102 
+                          N016.49.42.198 E095.55.30.102 EMREL EMREL 
+PAKSU Holding             N017.08.58.599 E096.19.44.197 N017.08.44.519 E096.19.15.280 
+                          N017.08.44.519 E096.19.15.280 N017.08.46.143 E096.18.42.868 
+                          N017.08.46.143 E096.18.42.868 N017.09.03.033 E096.18.15.647 
+                          N017.09.03.033 E096.18.15.647 N017.09.30.664 E096.18.00.912 
+                          N017.09.30.664 E096.18.00.912 N017.10.01.633 E096.18.02.611 
+                          N017.10.01.633 E096.18.02.611 N017.10.27.642 E096.18.20.288 
+                          N017.10.27.642 E096.18.20.288 N017.11.47.816 E096.19.53.487 
+                          N017.11.47.816 E096.19.53.487 N017.12.01.894 E096.20.22.412 
+                          N017.12.01.894 E096.20.22.412 N017.12.00.271 E096.20.54.828 
+                          N017.12.00.271 E096.20.54.828 N017.11.43.381 E096.21.22.052 
+                          N017.11.43.381 E096.21.22.052 N017.11.15.750 E096.21.36.789 
+                          N017.11.15.750 E096.21.36.789 N017.10.44.780 E096.21.35.090 
+                          N017.10.44.780 E096.21.35.090 N017.10.18.772 E096.21.17.411 
+                          N017.10.18.772 E096.21.17.411 N017.08.58.599 E096.19.44.197 
+RELAP Holding             N017.20.35.299 E097.04.24.429 N017.20.42.275 E097.03.52.770 
+                          N017.20.42.275 E097.03.52.770 N017.21.03.425 E097.03.29.006 
+                          N017.21.03.425 E097.03.29.006 N017.21.33.081 E097.03.19.507 
+                          N017.21.33.081 E097.03.19.507 N017.22.03.298 E097.03.26.816 
+                          N017.22.03.298 E097.03.26.816 N017.22.25.979 E097.03.48.975 
+                          N017.22.25.979 E097.03.48.975 N017.22.35.046 E097.04.20.047 
+                          N017.22.35.046 E097.04.20.047 N017.22.39.226 E097.06.25.521 
+                          N017.22.39.226 E097.06.25.521 N017.22.32.249 E097.06.57.180 
+                          N017.22.32.249 E097.06.57.180 N017.22.11.099 E097.07.20.943 
+                          N017.22.11.099 E097.07.20.943 N017.21.41.442 E097.07.30.443 
+                          N017.21.41.442 E097.07.30.443 N017.21.11.225 E097.07.23.134 
+                          N017.21.11.225 E097.07.23.134 N017.20.48.545 E097.07.00.974 
+                          N017.20.48.545 E097.07.00.974 N017.20.39.478 E097.06.29.902 
+                          N017.20.39.478 E097.06.29.902 N017.20.35.299 E097.04.24.429 
+ENSIT Holding             N016.22.22.719 E097.00.52.440 N016.22.53.158 E097.00.46.267 
+                          N016.22.53.158 E097.00.46.267 N016.23.22.479 E097.00.56.790 
+                          N016.23.22.479 E097.00.56.790 N016.23.42.824 E097.01.21.185 
+                          N016.23.42.824 E097.01.21.185 N016.23.48.741 E097.01.52.914 
+                          N016.23.48.741 E097.01.52.914 N016.23.38.645 E097.02.23.475 
+                          N016.23.38.645 E097.02.23.475 N016.23.15.241 E097.02.44.681 
+                          N016.23.15.241 E097.02.44.681 N016.21.27.549 E097.03.39.429 
+                          N016.21.27.549 E097.03.39.429 N016.20.57.107 E097.03.45.592 
+                          N016.20.57.107 E097.03.45.592 N016.20.27.786 E097.03.35.070 
+                          N016.20.27.786 E097.03.35.070 N016.20.07.441 E097.03.10.680 
+                          N016.20.07.441 E097.03.10.680 N016.20.01.524 E097.02.38.956 
+                          N016.20.01.524 E097.02.38.956 N016.20.11.620 E097.02.08.398 
+                          N016.20.11.620 E097.02.08.398 N016.20.35.024 E097.01.47.196 
+                          N016.20.35.024 E097.01.47.196 ENSIT ENSIT 
+DANSO Holding             N017.01.24.800 E096.20.43.499 N017.01.47.846 E096.20.21.793 
+                          N017.01.47.846 E096.20.21.793 N017.02.18.179 E096.20.15.049 
+                          N017.02.18.179 E096.20.15.049 N017.02.47.673 E096.20.25.072 
+                          N017.02.47.673 E096.20.25.072 N017.03.08.424 E096.20.49.176 
+                          N017.03.08.424 E096.20.49.176 N017.03.14.872 E096.21.20.902 
+                          N017.03.14.872 E096.21.20.902 N017.03.05.287 E096.21.51.750 
+                          N017.03.05.287 E096.21.51.750 N017.02.00.028 E096.23.36.858 
+                          N017.02.00.028 E096.23.36.858 N017.01.36.980 E096.23.58.556 
+                          N017.01.36.980 E096.23.58.556 N017.01.06.647 E096.24.05.299 
+                          N017.01.06.647 E096.24.05.299 N017.00.37.153 E096.23.55.277 
+                          N017.00.37.153 E096.23.55.277 N017.00.16.402 E096.23.31.175 
+                          N017.00.16.402 E096.23.31.175 N017.00.09.954 E096.22.59.452 
+                          N017.00.09.954 E096.22.59.452 N017.00.19.538 E096.22.28.608 
+                          N017.00.19.538 E096.22.28.608 DANSO DANSO 
+PALPO Holding             N016.42.35.599 E096.06.44.301 N016.42.45.695 E096.06.13.686 
+                          N016.42.45.695 E096.06.13.686 N016.42.39.778 E096.05.41.904 
+                          N016.42.39.778 E096.05.41.904 N016.42.19.432 E096.05.17.470 
+                          N016.42.19.432 E096.05.17.470 N016.41.50.111 E096.05.06.929 
+                          N016.41.50.111 E096.05.06.929 N016.41.19.669 E096.05.13.107 
+                          N016.41.19.669 E096.05.13.107 N016.40.56.265 E096.05.34.347 
+                          N016.40.56.265 E096.05.34.347 N016.39.49.263 E096.07.18.045 
+                          N016.39.49.263 E096.07.18.045 N016.39.39.165 E096.07.48.650 
+                          N016.39.39.165 E096.07.48.650 N016.39.45.082 E096.08.20.428 
+                          N016.39.45.082 E096.08.20.428 N016.40.05.428 E096.08.44.861 
+                          N016.40.05.428 E096.08.44.861 N016.40.34.749 E096.08.55.400 
+                          N016.40.34.749 E096.08.55.400 N016.41.05.191 E096.08.49.223 
+                          N016.41.05.191 E096.08.49.223 N016.41.28.595 E096.08.27.985 
+                          N016.41.28.595 E096.08.27.985 PALPO PALPO 
+OKIKO Holding             N017.50.54.210 E095.46.17.850 N017.50.29.771 E095.46.37.904 
+                          N017.50.29.771 E095.46.37.904 N017.49.59.061 E095.46.42.438 
+                          N017.49.59.061 E095.46.42.438 N017.49.30.307 E095.46.30.234 
+                          N017.49.30.307 E095.46.30.234 N017.49.11.214 E095.46.04.562 
+                          N017.49.11.214 E095.46.04.562 N017.49.06.897 E095.45.32.301 
+                          N017.49.06.897 E095.45.32.301 N017.49.18.515 E095.45.02.095 
+                          N017.49.18.515 E095.45.02.095 N017.50.30.625 E095.43.21.576 
+                          N017.50.30.625 E095.43.21.576 N017.50.55.062 E095.43.01.513 
+                          N017.50.55.062 E095.43.01.513 N017.51.25.772 E095.42.56.979 
+                          N017.51.25.772 E095.42.56.979 N017.51.54.526 E095.43.09.184 
+                          N017.51.54.526 E095.43.09.184 N017.52.13.619 E095.43.34.859 
+                          N017.52.13.619 E095.43.34.859 N017.52.17.936 E095.44.07.124 
+                          N017.52.17.936 E095.44.07.124 N017.52.06.318 E095.44.37.333 
+                          N017.52.06.318 E095.44.37.333 OKIKO OKIKO 
+GONAS Holding             N017.10.02.397 E096.11.31.998 N017.09.32.740 E096.11.41.484 
+                          N017.09.32.740 E096.11.41.484 N017.09.02.523 E096.11.34.183 
+                          N017.09.02.523 E096.11.34.183 N017.08.39.843 E096.11.12.048 
+                          N017.08.39.843 E096.11.12.048 N017.08.30.776 E096.10.41.010 
+                          N017.08.30.776 E096.10.41.010 N017.08.37.752 E096.10.09.386 
+                          N017.08.37.752 E096.10.09.386 N017.08.58.902 E096.09.45.649 
+                          N017.08.58.902 E096.09.45.649 N017.10.40.514 E096.08.39.199 
+                          N017.10.40.514 E096.08.39.199 N017.11.10.170 E096.08.29.705 
+                          N017.11.10.170 E096.08.29.705 N017.11.40.387 E096.08.37.007 
+                          N017.11.40.387 E096.08.37.007 N017.12.03.067 E096.08.59.146 
+                          N017.12.03.067 E096.08.59.146 N017.12.12.134 E096.09.30.189 
+                          N017.12.12.134 E096.09.30.189 N017.12.05.158 E096.10.01.818 
+                          N017.12.05.158 E096.10.01.818 N017.11.44.008 E096.10.25.559 
+                          N017.11.44.008 E096.10.25.559 N017.10.02.397 E096.11.31.998 
 
 [LOW AIRWAY]
 
