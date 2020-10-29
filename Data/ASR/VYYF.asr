@@ -28,6 +28,26 @@ Free Text:Sector Frequencies\124.750:freetext
 Free Text:Sector Frequencies\126.750:freetext
 Free Text:Sector Frequencies\127.750:freetext
 Free Text:Sector Frequencies\128.750:freetext
+Free Text:VYYY Gates\1:freetext
+Free Text:VYYY Gates\10:freetext
+Free Text:VYYY Gates\11:freetext
+Free Text:VYYY Gates\12:freetext
+Free Text:VYYY Gates\13:freetext
+Free Text:VYYY Gates\14:freetext
+Free Text:VYYY Gates\15:freetext
+Free Text:VYYY Gates\16:freetext
+Free Text:VYYY Gates\17:freetext
+Free Text:VYYY Gates\18:freetext
+Free Text:VYYY Gates\19:freetext
+Free Text:VYYY Gates\2:freetext
+Free Text:VYYY Gates\20:freetext
+Free Text:VYYY Gates\3:freetext
+Free Text:VYYY Gates\4:freetext
+Free Text:VYYY Gates\5:freetext
+Free Text:VYYY Gates\6:freetext
+Free Text:VYYY Gates\7:freetext
+Free Text:VYYY Gates\8:freetext
+Free Text:VYYY Gates\9:freetext
 Free Text:VYYY Taxiways\A:freetext
 Free Text:VYYY Taxiways\A:freetext
 Free Text:VYYY Taxiways\A:freetext
@@ -66,11 +86,13 @@ Geo:GEO:
 Geo:VYYF FIZ Coastline:
 Geo:VYYF Groundlayout 32768:
 Geo:VYYF Prohibited area Prohibited:
+Geo:VYYY RWY Number:
+Geo:VYYY Taxi Markings:
 Regions:VYMD Ground:polygon
 Regions:VYNT Ground:polygon
 Regions:VYYY Ground:polygon
 SHOWC:1
-SHOWSB:0
+SHOWSB:1
 BELOW:0
 ABOVE:0
 LEADER:5
