@@ -23,6 +23,10 @@ PROFILE:VYYY_DEP:150:5
 ATIS2:"Mingaladon Departures"
 ATIS3:
 ATIS4:Report Callsign, Altitude and Position on initial contact.
+PROFILE:VYYY_DEL:20:3
+ATIS2:"Mingaladon Delivery"
+ATIS3:
+ATIS4:Report Callsign, Gate and Aircraft Type on initial contact.
 PROFILE:VYNT_APP:150:5
 ATIS2:"Naypyitaw Approach"
 ATIS3:
@@ -171,4 +175,5 @@ PROFILE:VYMD_GND:20:3
 ATIS2:"Mandalay Ground"
 ATIS3:
 ATIS4:Report Callsign, Aircraft Type, ATIS info and Position on initial contact.
+ATIS3:
 END
