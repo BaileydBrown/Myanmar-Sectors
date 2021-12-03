@@ -1,0 +1,123 @@
+DisplayTypeName:Standard ES radar screen
+DisplayTypeNeedRadarContent:1
+DisplayTypeGeoReferenced:1
+ARTCC boundary:Calcutta:
+ARTCC boundary:Chennai:
+ARTCC boundary:Dhaka:
+ARTCC boundary:Gulwahati:
+ARTCC boundary:Kunming:
+ARTCC boundary:Malaysia:
+ARTCC boundary:Rangoon Sector Split 1:
+ARTCC boundary:Rangoon Sector Split 2:
+ARTCC boundary:Rangoon Sector Split 3:
+ARTCC boundary:Rangoon Sector Split 4:
+ARTCC boundary:Thailand:
+ARTCC boundary:Vientiane:
+Free Text:Neighbour-FIR\VECC - Kolkata:freetext
+Free Text:Neighbour-FIR\VECX - Kolkata Oceanic:freetext
+Free Text:Neighbour-FIR\VEGF - Guwahti:freetext
+Free Text:Neighbour-FIR\VGFR - Dhaka:freetext
+Free Text:Neighbour-FIR\VLVT - Vientiane:freetext
+Free Text:Neighbour-FIR\VOMX - Channai:freetext
+Free Text:Neighbour-FIR\VTBB - Bangkok:freetext
+Free Text:Neighbour-FIR\VTBB - Bangkok:freetext
+Free Text:Neighbour-FIR\VTBB - Bangkok:freetext
+Free Text:Neighbour-FIR\WMFC - Lumpur:freetext
+Free Text:Neighbour-FIR\ZPKM - Kunming:freetext
+Free Text:Sector Frequencies\124.750:freetext
+Free Text:Sector Frequencies\126.750:freetext
+Free Text:Sector Frequencies\127.750:freetext
+Free Text:Sector Frequencies\128.750:freetext
+Free Text:VYYY Apron\1:freetext
+Free Text:VYYY Apron\10:freetext
+Free Text:VYYY Apron\11:freetext
+Free Text:VYYY Apron\12:freetext
+Free Text:VYYY Apron\13:freetext
+Free Text:VYYY Apron\14:freetext
+Free Text:VYYY Apron\15:freetext
+Free Text:VYYY Apron\16:freetext
+Free Text:VYYY Apron\17:freetext
+Free Text:VYYY Apron\18:freetext
+Free Text:VYYY Apron\19:freetext
+Free Text:VYYY Apron\2:freetext
+Free Text:VYYY Apron\20:freetext
+Free Text:VYYY Apron\21:freetext
+Free Text:VYYY Apron\29:freetext
+Free Text:VYYY Apron\3:freetext
+Free Text:VYYY Apron\30:freetext
+Free Text:VYYY Apron\31:freetext
+Free Text:VYYY Apron\32:freetext
+Free Text:VYYY Apron\33:freetext
+Free Text:VYYY Apron\34:freetext
+Free Text:VYYY Apron\35:freetext
+Free Text:VYYY Apron\36:freetext
+Free Text:VYYY Apron\37:freetext
+Free Text:VYYY Apron\4:freetext
+Free Text:VYYY Apron\5:freetext
+Free Text:VYYY Apron\6:freetext
+Free Text:VYYY Apron\7:freetext
+Free Text:VYYY Apron\8:freetext
+Free Text:VYYY Apron\9:freetext
+Free Text:VYYY Apron\Apron A:freetext
+Free Text:VYYY Apron\Apron B:freetext
+Free Text:VYYY Apron\Apron B Extension:freetext
+Free Text:VYYY Apron\Dirt Patch Used To Park Planes:freetext
+Free Text:VYYY Taxiways\A:freetext
+Free Text:VYYY Taxiways\A:freetext
+Free Text:VYYY Taxiways\A:freetext
+Free Text:VYYY Taxiways\A:freetext
+Free Text:VYYY Taxiways\A:freetext
+Free Text:VYYY Taxiways\A:freetext
+Free Text:VYYY Taxiways\A:freetext
+Free Text:VYYY Taxiways\A:freetext
+Free Text:VYYY Taxiways\A:freetext
+Free Text:VYYY Taxiways\A1:freetext
+Free Text:VYYY Taxiways\A1:freetext
+Free Text:VYYY Taxiways\A1:freetext
+Free Text:VYYY Taxiways\A2:freetext
+Free Text:VYYY Taxiways\A2:freetext
+Free Text:VYYY Taxiways\A3:freetext
+Free Text:VYYY Taxiways\A3:freetext
+Free Text:VYYY Taxiways\A3:freetext
+Free Text:VYYY Taxiways\A4:freetext
+Free Text:VYYY Taxiways\A4:freetext
+Free Text:VYYY Taxiways\A5:freetext
+Free Text:VYYY Taxiways\A5:freetext
+Free Text:VYYY Taxiways\A6:freetext
+Free Text:VYYY Taxiways\A6:freetext
+Free Text:VYYY Taxiways\A9:freetext
+Free Text:VYYY Taxiways\B1:freetext
+Free Text:VYYY Taxiways\B2:freetext
+Free Text:VYYY Taxiways\B3:freetext
+Free Text:VYYY Taxiways\C:freetext
+Free Text:VYYY Taxiways\D:freetext
+Free Text:VYYY Taxiways\E:freetext
+Free Text:VYYY Taxiways\H:freetext
+Free Text:VYYY Taxiways\J:freetext
+Free Text:VYYY Taxiways\K:freetext
+Free Text:VYYY Taxiways\R1:freetext
+Free Text:VYYY Taxiways\R2:freetext
+Geo:GEO:
+Geo:VYYF FIZ Coastline:
+Geo:VYYF Groundlayout 32768:
+Geo:VYYF Prohibited area Prohibited:
+Geo:VYYY RWY Number:
+Geo:VYYY Taxi Markings:
+Regions:dirt:polygon
+Regions:VYMD Ground:polygon
+Regions:VYNT Ground:polygon
+Regions:VYYY Ground:polygon
+Runways:VYYY YANGON INTL 03-21:centerline
+SHOWC:1
+SHOWSB:1
+BELOW:0
+ABOVE:0
+LEADER:5
+SHOWLEADER:1
+TURNLEADER:0
+HISTORY_DOTS:5
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+TAGFAMILY:Matias (built in)
+WINDOWAREA:20.695389:96.690108:20.802964:96.906045
