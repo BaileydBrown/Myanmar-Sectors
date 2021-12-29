@@ -1,0 +1,8 @@
+.on Hello everyone, $callsign is online!
+.off $callsign is now closed. Bye!
+.clr Cleared to $arr via $1, $cruise $sid Departure, squawk $asquawk
+.clr2 Cleared to $arr via $1, $cruise $2 Departure, squawk $asquawk
+.cli Climb $temp
+.des Descend $temp
+.arr Cleared to $arr via $star arrival, $1 transition, ILS Approach runway $arrrwy, report ready for descend, Transition Level $2.
+.ctc Contact $radioname($1) $atccallsign($1) on $freq($1)
