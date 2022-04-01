@@ -1,9 +1,9 @@
 ;Made by Bailey Brown - 1376159
 ;With contributions by David Lee - 1161277, Resh - 1405734, Amos Ng - 1357854
 ;EuroScope ATC Sector File (SCT)
-;Copyright (C) 2021 by VATSEA
+;Copyright (C) 2021-2022 by VATSEA
 ;All Rights Reserved
-;Rangoon sector version 2113
+;Rangoon sector version 2203
 
 [POSITIONS]
 ASEA_2_FSS:South East Asia Control:136.225:ZZS:2:ASEA:FSS:::0:0
