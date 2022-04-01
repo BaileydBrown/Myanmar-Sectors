@@ -1,15 +1,15 @@
-AIRAC cycle    : 2113
+AIRAC cycle    : 2203
 Version        : 1
-Valid (from/to): 30/DEC/2021 - 27/JAN/2022
+Valid (from/to): 24/MAR/2022 - 21/APR/2022
 
 Forum          : http://forum.navigraph.com
 
-Data provided by Navigraph - www.navigraph.com - Source data copyright (c) 2021 Jeppesen
+Data provided by Navigraph - www.navigraph.com - Source data copyright (c) 2022 Jeppesen
 This data may be used for ground based recreational computer game
 simulation software only, and may not be recompiled, interpreted,
 or distributed for any purpose without the written consent of Navigraph.
 The contents of this database is dated and must not be used for real
 world navigation as it is unlawful and unsafe to do so.
 
-Parser-Version : DFD v1.0 21.0826 (c) Richard Stefan
-Files parsed on: 20/12/2021
+Parser-Version : DFD v1.0 22.0217 (c) Richard Stefan
+Files parsed on: 10/03/2022
