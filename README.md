@@ -1,5 +1,6 @@
 # Myanmar-Sectors
-Copyright 2021-2022 VATSIM Southeast Asia Division\n
+Copyright 2021-2022 VATSIM Southeast Asia Division
+
 For use on the VATSIM Network
 # How to install the sectorfile
 Navigate to your Vateir folder by default it should be under C:\Users<User>\Documents\EuroScope\DataFiles\Myanmar\Myanmar Sector.
