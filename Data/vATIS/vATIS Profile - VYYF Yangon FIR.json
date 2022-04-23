@@ -1,0 +1,172 @@
+{
+  "Name": "VYYF Yangon FIR",
+  "Composites": [
+    {
+      "Name": "Mingaladon",
+      "Identifier": "VYYY",
+      "Contractions": [
+        {
+          "String": "RNAV",
+          "Spoken": "ARE NAV"
+        },
+        {
+          "String": "VSA",
+          "Spoken": "VISUAL"
+        },
+        {
+          "String": "APN",
+          "Spoken": "APRON"
+        },
+        {
+          "String": "SOD",
+          "Spoken": "SIMULTANEOUS OPPOSITE DIRECTION"
+        },
+        {
+          "String": "OPS",
+          "Spoken": "OPERATIONS"
+        },
+        {
+          "String": "RNP",
+          "Spoken": "ARE N P"
+        },
+        {
+          "String": "MINGALADON",
+          "Spoken": "MINGA LARDON"
+        },
+        {
+          "String": "O3",
+          "Spoken": "ZERO THREE"
+        },
+        {
+          "String": "ILS",
+          "Spoken": "EYELESS"
+        }
+      ],
+      "AtisFrequency": 28400,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Female"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "SIMULTANEOUS OPPOSITE DIRECTION (SOD) OPS",
+          "AirportConditions": "EXP ILS APP. ARR RWY 21. DEP RWY O3. SOD RWY OPS IN PROG.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "MINGALADON TERMINAL INFO [ATIS_CODE]. AT [OBS_TIME]. [ARPT_COND] [NOTAMS]. [FULL_WX_STRING]. ON FIRST CTC WITH MINGALADON. NOTIFY RECEIPT OF [ATIS_CODE]."
+        },
+        {
+          "Name": "NORTH OPS IMC",
+          "AirportConditions": "EXP RNP APP. ARR AND DEP RWY 03.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "MINGALADON TERMINAL INFO [ATIS_CODE]. AT [OBS_TIME]. [ARPT_COND] [NOTAMS]. [FULL_WX_STRING]. ON FIRST CTC WITH MINGALADON. NOTIFY RECEIPT OF [ATIS_CODE]."
+        },
+        {
+          "Name": "SOUTH OPS",
+          "AirportConditions": "EXP ILS APP. ARR AND DEP RWY 21.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "MINGALADON TERMINAL INFO [ATIS_CODE]. AT [OBS_TIME]. [ARPT_COND] [NOTAMS]. [FULL_WX_STRING]. ON FIRST CTC WITH MINGALADON. NOTIFY RECEIPT OF [ATIS_CODE]."
+        },
+        {
+          "Name": "NORTH OPS VMC",
+          "AirportConditions": "EXP VSA APP. ARR AND DEP RWY 03.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "MINGALADON TERMINAL INFO [ATIS_CODE]. AT [OBS_TIME]. [ARPT_COND] [NOTAMS]. [FULL_WX_STRING]. ON FIRST CTC WITH MINGALADON. NOTIFY RECEIPT OF [ATIS_CODE]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": [
+        {
+          "Low": 940,
+          "High": 1049,
+          "Altitude": 75
+        }
+      ]
+    },
+    {
+      "Name": "Mandalay",
+      "Identifier": "VYMD",
+      "Contractions": [
+        {
+          "String": "RNAV",
+          "Spoken": "ARE NAV"
+        },
+        {
+          "String": "VSA",
+          "Spoken": "VISUAL"
+        },
+        {
+          "String": "OPS",
+          "Spoken": "OPERATIONS"
+        },
+        {
+          "String": "RNP",
+          "Spoken": "ARE EN PEE"
+        },
+        {
+          "String": "ILS",
+          "Spoken": "EYELESS"
+        }
+      ],
+      "AtisFrequency": 28500,
+      "ObservationTime": {
+        "Enabled": false,
+        "Time": 0
+      },
+      "MagneticVariation": {
+        "Enabled": false,
+        "MagneticDegrees": 0
+      },
+      "AtisVoice": {
+        "UseTextToSpeech": true,
+        "Voice": "UK Female"
+      },
+      "IDSEndpoint": null,
+      "Presets": [
+        {
+          "Name": "NORTH OPS IMC",
+          "AirportConditions": "EXP RNP APP. ARR AND DEP RWY 35.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "MANDALAY TERMINAL INFO [ATIS_CODE]. AT [OBS_TIME]. [ARPT_COND] [NOTAMS]. [FULL_WX_STRING]. ON FIRST CTC WITH MANDALAY. NOTIFY RECEIPT OF [ATIS_CODE]."
+        },
+        {
+          "Name": "NORTH OPS VMC",
+          "AirportConditions": "EXP VSA APP. ARR AND DEP RWY 35.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "MANDALAY TERMINAL INFO [ATIS_CODE]. AT [OBS_TIME]. [ARPT_COND] [NOTAMS]. [FULL_WX_STRING]. ON FIRST CTC WITH MANDALAY. NOTIFY RECEIPT OF [ATIS_CODE]."
+        },
+        {
+          "Name": "SOUTH OPS",
+          "AirportConditions": "EXP ILS APP. ARR AND DEP RWY 17.",
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "MANDALAY TERMINAL INFO [ATIS_CODE]. AT [OBS_TIME]. [ARPT_COND] [NOTAMS]. [FULL_WX_STRING]. ON FIRST CTC WITH MANDALAY. NOTIFY RECEIPT OF [ATIS_CODE]."
+        }
+      ],
+      "AirportConditionDefinitions": [],
+      "NotamDefinitions": [],
+      "TransitionLevels": [
+        {
+          "Low": 940,
+          "High": 1049,
+          "Altitude": 75
+        }
+      ]
+    }
+  ]
+}
