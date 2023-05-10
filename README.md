@@ -6,4 +6,4 @@ For use on the VATSIM Network
 Navigate to your Euroscope folder. Create a folder called "Myanmar Sectors".
 Open the folder, Simply Drag and drop the SCT and ESE files.
 # Credits
-Bailey Brown - 1376159, Amos Ng - 1357854, Resh - 1405734, David Lee - 1161277
+Bailey Brown - 1376159, Amos Ng - 1357854, Resh - 1405734, David Lee - 1161277, Duc Nguyen (Chris) - 1502513
