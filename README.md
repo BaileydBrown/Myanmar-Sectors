@@ -1,5 +1,5 @@
 # Myanmar-Sectors
-Copyright 2021-2022 VATSIM Southeast Asia Division
+Copyright 2021-2023 VATSIM Southeast Asia Division
 
 For use on the VATSIM Network
 # How to install the sectorfile
