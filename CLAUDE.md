@@ -49,3 +49,18 @@ Tower and approach positions for Myanmar airports, named by ICAO code, e.g. VYYY
 - `generate_airway.py`: asks for an FIR name, reads `<FIR>_Waypoints.txt` and `<FIR>_Navaids.txt`, and writes `<FIR>_1Airways.txt` in `[LOW/HIGH AIRWAY]` form. The `- Copy` variant extracts a hard-coded airway list instead.
 - These tools produce **sector-file (.sct) output for a bounding box**, not the worldwide `NAVDATA` formats. `ATS.txt` has no altitude or L/H/B data, so `AIRWAY.txt` cannot be rebuilt from it.
 - On this machine `python` on PATH is the Windows Store stub and fails. Use `%LOCALAPPDATA%\Programs\Python\Python312\python.exe`.
+
+## STAR and approach connector convention (VYYF.ese)
+- A `STAR:` line ends where the published STAR ends (the last fix in the PFPX/Navigraph `STR` record), not at the approach.
+- Each STAR (and each transition STAR such as `KTxENSIT1B`) gets one **connector** line per approach type available on that runway. A connector is named `<STAR name>x<ILS|RNP>` and holds the **full route**: the whole STAR plus the approach feeder fixes. Example: `STAR:VYHH:36:REMIN1BxRNP:REMIN DUMER HH901 BINAN PASNO`.
+- The `x` separator is also used inside STAR names for transitions, so a connector for a transition reads `KTxENSIT1BxILS`.
+- Which types exist comes from `Development/Tools/Navigraph Data/proc/<ICAO>.txt` (`I` = ILS, `R` = RNP; `D`/`Q`/`N` are VOR, RNAV, NDB). Generate both xILS and xRNP when both exist. Use only xRNP where there is no ILS.
+- Current feeders (STAR end fix, then the connector tail):
+  - VYHH 36: DUMER or KALSI, then `HH901 BINAN PASNO` (RNP).
+  - VYMD 17: MDN01, then `TADAU` (ILS) or `MDN05 MDN04` (RNP). VYMD 35: MDS02 or MDS03, then `MDS05 MDS04` (RNP).
+  - VYTD 02: NODEN or SUSEN, then `TD901 SALNI` (RNP).
+  - VYYY 21: PAKSU, DANSO or GONAS, then `HLEGU BAVEL SULAP` (ILS) or `HLEGU SULAP` (RNP). VYYY 03: EMREL or PALPO, then `YY902 LUNGO` (RNP).
+- Transitions that PFPX folds into the base procedure (e.g. `MAPKO1A` containing `POXEM`) stay as separate `x` transitions in the ESE.
+- `HLEGU` (waypoint) and `HGU` (VOR) are the same point. The maintainer confirmed the SID `BAGOO1A` starts at `HLEGU`.
+- The `.sct` `[STAR]` drawing lines are not updated by this convention and still draw the old, longer routes for VYMD, VYTD and VYYY.
+- The sector version string ("Rangoon sector version NNNN" in the `.sct` and `.ese` headers, and `RangoonNNNN` in the `.sct` [INFO]) is set to the AIRAC cycle.
