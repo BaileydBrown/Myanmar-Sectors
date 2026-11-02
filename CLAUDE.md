@@ -67,3 +67,9 @@ Tower and approach positions for Myanmar airports, named by ICAO code, e.g. VYYY
   - Leave `Holding`, `RNP`/`RNP MISAPP` approach drawings and the old-style transition fragments (`VYYY STAR LUDVI ENSIT`) alone.
   - `INP11` and `INPT6` (VYNT ILS) are used by the `.ese` but are not defined as fixes in the `.sct`. `VYTD RNP 02` is still an all-zero placeholder.
 - The sector version string ("Rangoon sector version NNNN" in the `.sct` and `.ese` headers, and `RangoonNNNN` in the `.sct` [INFO]) is set to the AIRAC cycle.
+
+## Generated holds and initial-climb drawings (.sct)
+Navigraph's Myanmar procedure data has no RF/AF arc legs, so curves are not drawn from the source. Two things are generated instead (script: `Development/Tools/draw_holds_and_climbs.py`; it edits `VYYF.sct` in place, so run it on a clean copy only):
+- **Holds.** Every `HM`/`HF` record in `proc/VY*.txt` becomes a `<FIX> Holding` block in `[STAR]` (with the inbound course appended, e.g. `MIA Holding 016`, when a fix has several). Racetrack = inbound course, turn direction (`1` left, `2` right), 4.3 NM legs, standard-rate (3 deg/s) turns at the record's speed (210 kt if none), magnetic variation 0 (as in the sct [INFO]). These are computed geometry, not charted tracks.
+- **SID initial climbs.** For SIDs whose first leg is `CA`/`VA`, a stub is added from the departure end of the runway along the heading, then straight to the SID's first fix. Stub length is an assumption: (CA altitude minus runway elevation) / 200 ft per NM, between 0.5 and 6 NM.
+- SID blocks that already contain hand-drawn coordinate segments are never touched. SIDs whose first leg is not `CA`/`VA` (most VYMD, VYSW, VYME) get no stub.
