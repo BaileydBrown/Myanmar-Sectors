@@ -62,5 +62,8 @@ Tower and approach positions for Myanmar airports, named by ICAO code, e.g. VYYY
   - VYYY 21: PAKSU, DANSO or GONAS, then `HLEGU BAVEL SULAP` (ILS) or `HLEGU SULAP` (RNP). VYYY 03: EMREL or PALPO, then `YY902 LUNGO` (RNP).
 - Transitions that PFPX folds into the base procedure (e.g. `MAPKO1A` containing `POXEM`) stay as separate `x` transitions in the ESE.
 - `HLEGU` (waypoint) and `HGU` (VOR) are the same point. The maintainer confirmed the SID `BAGOO1A` starts at `HLEGU`.
-- The `.sct` `[STAR]` drawing lines are not updated by this convention and still draw the old, longer routes for VYMD, VYTD and VYYY.
+- `.sct` `[SID]`/`[STAR]` drawing blocks must match the `.ese`: one block per `.ese` SID/STAR with two or more fixes, labelled `<ICAO> SID|STAR <rwy> <name>` with the exact `.ese` name (connectors and transitions included). Each block draws `a a b b` segments for consecutive route fixes.
+  - When regenerating a block, keep its existing hand-drawn segments that use real coordinates (arcs, runway tracks) and any `COLOR_*` tags on segments that still exist. Zero-coordinate (`N000.00.00.000`) placeholders are replaced.
+  - Leave `Holding`, `RNP`/`RNP MISAPP` approach drawings and the old-style transition fragments (`VYYY STAR LUDVI ENSIT`) alone.
+  - `INP11` and `INPT6` (VYNT ILS) are used by the `.ese` but are not defined as fixes in the `.sct`. `VYTD RNP 02` is still an all-zero placeholder.
 - The sector version string ("Rangoon sector version NNNN" in the `.sct` and `.ese` headers, and `RangoonNNNN` in the `.sct` [INFO]) is set to the AIRAC cycle.
