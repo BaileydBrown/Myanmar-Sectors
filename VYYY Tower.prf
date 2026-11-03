@@ -62,7 +62,6 @@ LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 Settings	SettingsfileVCCS	\Data\Settings\VCCS.txt
 LastSession	atis2	"Mingaladon Tower"
-LastSession	server	SINGAPORE
 LastSession	atis4	Report Callsign, Aircraft Type, ATIS info and Position on initial contact.
 RecentFiles	Recent1	\Data\ASR\VYYY Tower.asr
 RecentFiles	Recent2	\Data\ASR\VYYF.asr
